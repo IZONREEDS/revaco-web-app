@@ -7,7 +7,8 @@ export default function HomePage() {
   const text = "revaco".split("");
 
   return (
-    <div className="min-h-screen w-auto flex flex-col items-center justify-center bg-[#F9F7F2] text-[#0f172a] relative overflow-hidden">
+<div className="h-screen md:h-dvh w-full flex flex-col items-center justify-center bg-[#F9F7F2] text-[#0f172a] relative overflow-hidden">
+
       {/* Centered Content */}
       <div className="flex flex-col items-center text-center space-y-6 z-10">
         {/* WIND ANIMATION LOGO */}

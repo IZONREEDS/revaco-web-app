@@ -1,7 +1,7 @@
 import "./globals.css";
 import localFont from "next/font/local";
 
-import { cn } from "../../../utils/util";
+import { cn } from "@/utils/util";
 
 const gillSans = localFont({
   src: [
@@ -82,7 +82,7 @@ export default async function RootLayout({
 }) {
   const htmlClasses = cn(
     [gillSans.variable, cheltenhamLT.variable, cheltenhamBT.variable],
-    "overscroll-none"
+    "overscroll-none",
   );
 
   return (
